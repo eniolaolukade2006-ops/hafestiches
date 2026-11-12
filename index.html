@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hafe Stitches — Unisex Fashion Designer</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Great+Vibes&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#top"><span data-script>Hafe</span><b data-name>Stitches</b></a>
+    <a class="l" href="#styles">Styles</a>
+    <a class="l" href="#studio">Studio</a>
+    <a class="l" href="#process">How it works</a>
+    <a class="l" href="#order">Order</a>
+    <a class="btn solid" href="#order">Order now</a>
+  </div>
+</header>
+
+<div class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <p class="badge">Unisex fashion designer</p>
+      <div class="script" data-script>Hafe</div>
+      <h1 data-name>Stitches</h1>
+      <p class="tag">Made to measure. Made for you.</p>
+      <div class="cta">
+        <a class="btn solid" data-wa href="#order">Order on WhatsApp</a>
+        <a class="btn" href="#styles">See our styles</a>
+      </div>
+      <div class="box">
+        <span class="lab">Services</span>
+        <ul><li>Office outfits</li><li>Casual outfits</li><li>Native outfits</li><li>Ready to wear</li></ul>
+      </div>
+    </div>
+
+    <figure class="hero-photo"><img src="images/hero-tailor.jpg" width="720" height="899" alt="A tailor in an orange shirt, with a tape measure around her neck, cutting striped fabric at her workbench"></figure>
+  </div>
+</div>
+
+<main>
+<section id="styles">
+  <div class="wrap">
+    <h2>Styles we make</h2>
+    <p class="lead">From sharp office wear to everyday outfits, every piece is cut and stitched to your measurements.</p>
+    <!-- Native outfits card is hidden until there is a photo. To bring it back, add an article.card with the photo and the heading Native outfits. -->
+    <div class="grid">
+      <article class="card"><div class="ph"><img loading="lazy" decoding="async" src="images/office-outfits.jpg" style="object-position:50% 28%" alt="A brown pinstripe top with side buttons and matching wide-leg trousers on a gold mannequin"></div><div class="t"><h3>Office outfits</h3><p>Tailored shirts, trousers and jackets that look sharp all day.</p></div></article>
+      <article class="card"><div class="ph"><img loading="lazy" decoding="async" src="images/casual-outfits.jpg" style="object-position:50% 30%" alt="A burgundy and white printed peplum top with flared sleeves and burgundy wide-leg trousers"></div><div class="t"><h3>Casual outfits</h3><p>Relaxed sets and everyday pieces cut to fit you properly.</p></div></article>
+      <article class="card"><div class="ph"><img loading="lazy" decoding="async" src="images/ready-to-wear.jpg" style="object-position:50% 30%" alt="A pink floral brocade dress with a fitted bodice and full skirt on a mannequin"></div><div class="t"><h3>Ready to wear</h3><p>Finished pieces you can pick up and wear straight away.</p></div></article>
+      <article class="card"><div class="ph"><img loading="lazy" decoding="async" src="images/occasion-wear.jpg" style="object-position:50% 30%" alt="A brown corset top with long burgundy floral lace sleeves and a matching lace skirt on a mannequin"></div><div class="t"><h3>Occasion wear</h3><p>Outfits for weddings, parties and special events, made to be remembered.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="studio">
+  <div class="wrap">
+    <h2>Inside the studio</h2>
+    <p class="lead">Every outfit starts with careful measuring and ends with a proper fitting.</p>
+    <div class="grid gal">
+      <figure><img loading="lazy" decoding="async" src="images/studio-fitting.jpg" style="object-position:40% 50%" alt="A tailor pinning a pink gown on a mannequin"><figcaption>Fittings done properly</figcaption></figure>
+      <figure><img loading="lazy" decoding="async" src="images/studio-tape.jpg" style="object-position:50% 25%" alt="A gold mannequin in a wine velvet top with blue measuring tapes draped over it"><figcaption>Measured before we cut</figcaption></figure>
+      <figure><img loading="lazy" decoding="async" src="images/studio-machine.jpg" style="object-position:50% 55%" alt="A sewing machine stitching tan fabric"><figcaption>Clean, strong stitching</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="process">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <p class="lead">Four simple steps from idea to outfit.</p>
+    <ol class="steps">
+      <li><b>1</b><h3>Tell us what you want</h3><p>Send a photo of the style and your measurements.</p></li>
+      <li><b>2</b><h3>Confirm price and date</h3><p>We agree the fabric, the cost and when it will be ready.</p></li>
+      <li><b>3</b><h3>Fitting</h3><p>Try it on and we adjust until it fits perfectly.</p></li>
+      <li><b>4</b><h3>Collect or delivery</h3><p>Pick it up, or we send it to you.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="order">
+  <div class="wrap order">
+    <div>
+      <h2>Place your order</h2>
+      <p class="lead">Fill this in and we’ll open WhatsApp with your details already written. Nothing is sent until you press send.</p>
+      <div class="form" id="form">
+        <label>Your name<input id="f-name" autocomplete="name" placeholder="e.g. Ada"></label>
+        <label>Outfit type
+          <select id="f-type"><option>Office outfit</option><option>Casual outfit</option><option>Native outfit</option><option>Ready to wear</option><option>Something else</option></select>
+        </label>
+        <label>Fabric or colour<input id="f-fabric" placeholder="e.g. Ankara, wine red"></label>
+        <label>Date needed<input id="f-date" type="date"></label>
+        <label class="full">Notes<textarea id="f-notes" placeholder="Style details, measurements, or a link to a photo"></textarea></label>
+        <div class="full"><a class="btn solid" id="send" href="#order">Send on WhatsApp</a></div>
+      </div>
+    </div>
+    <aside class="cbox">
+      <span class="lab">Contact</span>
+      <a class="row" data-wa href="#order"><b>WhatsApp</b><span data-phone>080 0000 0000</span></a>
+      <p class="row" style="margin:0"><b>Hours</b><span data-hours>Mon-Sat, 9am-6pm</span></p>
+      <p class="row" style="margin:0"><b>Turnaround</b><span data-turnaround>7-14 days</span></p>
+      <p class="row" style="margin:0 0 14px"><b>Location</b><span data-city>Ipaja, Lagos State</span></p>
+    </aside>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">© <span data-script>Hafe</span> <span data-name>Stitches</span>. All rights reserved.</div></footer>
+<a class="fab" data-wa href="#order">Chat on WhatsApp</a>
+
+<script src="index.js"></script>
+</body>
+</html>
